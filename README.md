@@ -39,7 +39,7 @@ Hi! I'm **Suraj Yadav**, an aspiring Full Stack Developer passionate about build
 ---
 
 ## **Certifications & Patents**
-- **Patents Filed**: Weather Forecasting
+- **Patents Filed**:  Weather Forecasting
 - **Big Data**: IBM Certified
 - **IoT**: NPTEL, IIT Kharagpur
 - **HTML, CSS, JavaScript for Web Developers**: Coursera
