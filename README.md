@@ -45,7 +45,7 @@ Hi! I'm **Suraj Yadav**, an aspiring Full Stack Developer passionate about build
 - **HTML, CSS, JavaScript for Web Developers**: Coursera
 - **Object-Oriented Data Structures in C++**: Coursera
 
----
+
 
 ## Achievements
 
