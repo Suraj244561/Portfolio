@@ -27,11 +27,11 @@ Hi! I'm **Suraj Yadav**, an aspiring Full Stack Developer passionate about build
 ## **Skills**
 - *
 - **Frontend: React (Hooks, Router, Context/Redux), HTML5/CSS3, Responsive, Tailwind/Bootstrap 
- JavaScript: ES6+, async/await, modules, error handling 
- APIs/Tools: REST/JSON, Git/GitHub, Postman, npm, Vite/CRA 
- Plus: TypeScript , Next.js, Unix/Linux CLI, Framer Motion/GSAP  
- Databases: MongoDB, SQL 
- Languages : C++, Java, Python **
+ *JavaScript: ES6+, async/await, modules, error handling 
+ *APIs/Tools: REST/JSON, Git/GitHub, Postman, npm, Vite/CRA 
+ *Plus: TypeScript , Next.js, Unix/Linux CLI, Framer Motion/GSAP  
+ *Databases: MongoDB, SQL 
+ *Languages : C++, Java, Python **
 
 ## **Education**
 - **Bachelor of Engineering in Computer Science**  
