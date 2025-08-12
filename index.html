@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suraj Yadav - Full Stack MERN Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__brand">
+                <a href="#home" class="nav__logo">Suraj Yadav</a>
+            </div>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">Skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">Projects</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">Experience</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero__container container">
+            <div class="hero__content">
+                <h1 class="hero__title">
+                    Hi, I'm <span class="hero__name">Suraj Yadav</span>
+                </h1>
+                <h2 class="hero__subtitle">Full Stack MERN Developer</h2>
+                <p class="hero__description">
+                    Passionate Full Stack Developer with expertise in MERN stack and AI/ML. 
+                    Experienced in building scalable web applications and solving complex problems through innovative solutions.
+                </p>
+                <div class="hero__buttons">
+                    <a href="#projects" class="btn btn--primary">View Projects</a>
+                    <a href="#contact" class="btn btn--outline">Get In Touch</a>
+                </div>
+                <div class="hero__social">
+                    <a href="mailto:surajyadavx.in@gmail.com" class="hero__social-link" title="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://github.com" target="_blank" class="hero__social-link" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/iamsurajyadav/" target="_blank" class="hero__social-link" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container">
+            <h2 class="section__title">About Me</h2>
+            <div class="about__container">
+                <div class="about__img">
+                    <div class="about__img-placeholder">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+                <div class="about__content">
+                    <h3 class="about__title">Full Stack MERN Developer</h3>
+                    <p class="about__description">
+                        I'm a passionate Full Stack Developer specializing in the MERN stack with additional expertise in AI/ML. 
+                        Currently pursuing B.E. in Computer Science Engineering from Chandigarh University (2021-2025).
+                    </p>
+                    <div class="about__info">
+                        <div class="about__info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>India</span>
+                        </div>
+                        <div class="about__info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>surajyadavx.in@gmail.com</span>
+                        </div>
+                        <div class="about__info-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 7738137894</span>
+                        </div>
+                        <div class="about__info-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>B.E. in CSE, Chandigarh University</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills section" id="skills">
+        <div class="container">
+            <h2 class="section__title">Skills & Technologies</h2>
+            <div class="skills__container">
+                <div class="skills__category">
+                    <h3 class="skills__category-title">Languages</h3>
+                    <div class="skills__list">
+                        <div class="skill__item" data-skill="C++">
+                            <span class="skill__name">C++</span>
+                            <div class="skill__bar">
+                                <div class="skill__progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill__item" data-skill="Python">
+                            <span class="skill__name">Python</span>
+                            <div class="skill__bar">
+                                <div class="skill__progress" data-width="80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill__item" data-skill="Java">
+                            <span class="skill__name">Java</span>
+                            <div class="skill__bar">
+                                <div class="skill__progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill__item" data-skill="JavaScript">
+                            <span class="skill__name">JavaScript</span>
+                            <div class="skill__bar">
+                                <div class="skill__progress" data-width="90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__category">
+                    <h3 class="skills__category-title">Frontend</h3>
+                    <div class="skills__list">
+                        <div class="skill__item" data-skill="React.js">
+                            <span class="skill__name">React.js</span>
+                            <div class="skill__bar">
+                                <div class="skill__progress" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill__item" data-skill="HTML/CSS">
+                            <span class="skill__name">HTML/CSS</span>
+                            <div class="skill__bar">
+                                <div class="skill__progress" data-width="95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill__item" data-skill="Bootstrap">
+                            <span class="skill__name">Bootstrap</span>
+                            <div class="skill__bar">
+                                <div class="skill__progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill__item" data-skill="Tailwind">
+                            <span class="skill__name">Tailwind</span>
+                            <div class="skill__bar">
+                                <div class="skill__progress" data-width="80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__category">
+                    <h3 class="skills__category-title">Backend & Database</h3>
+                    <div class="skills__list">
+                        <div class="skill__item" data-skill="Node.js">
+                            <span class="skill__name">Node.js</span>
+                            <div class="skill__bar">
+                                <div class="skill__progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill__item" data-skill="Express.js">
+                            <span class="skill__name">Express.js</span>
+                            <div class="skill__bar">
+                                <div class="skill__progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill__item" data-skill="MongoDB">
+                            <span class="skill__name">MongoDB</span>
+                            <div class="skill__bar">
+                                <div class="skill__progress" data-width="80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill__item" data-skill="SQL/MySQL">
+                            <span class="skill__name">SQL/MySQL</span>
+                            <div class="skill__bar">
+                                <div class="skill__progress" data-width="75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__category">
+                    <h3 class="skills__category-title">Tools</h3>
+                    <div class="skills__tags">
+                        <span class="skill__tag">Git</span>
+                        <span class="skill__tag">GitHub</span>
+                        <span class="skill__tag">Postman</span>
+                        <span class="skill__tag">VS Code</span>
+                        <span class="skill__tag">TensorFlow</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section" id="projects">
+        <div class="container">
+            <h2 class="section__title">Featured Projects</h2>
+            <div class="projects__container">
+                <div class="project__card">
+                    <div class="project__header">
+                        <h3 class="project__title">MERN Stack E-commerce Platform</h3>
+                        <div class="project__tech">React.js • Node.js • Express.js • MongoDB</div>
+                    </div>
+                    <p class="project__description">
+                        Developed a fully responsive e-commerce web application with secure user authentication, 
+                        dynamic product management, and integrated payment gateway.
+                    </p>
+                    <div class="project__features">
+                        <span class="project__feature">Secure Authentication</span>
+                        <span class="project__feature">Payment Gateway</span>
+                        <span class="project__feature">Responsive Design</span>
+                        <span class="project__feature">RESTful APIs</span>
+                    </div>
+                    <div class="project__results">
+                        <div class="project__result">
+                            <i class="fas fa-chart-line"></i>
+                            <span>40% transaction success rate improvement</span>
+                        </div>
+                        <div class="project__result">
+                            <i class="fas fa-tachometer-alt"></i>
+                            <span>30% server response time reduction</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project__card">
+                    <div class="project__header">
+                        <h3 class="project__title">Career Navigation Website</h3>
+                        <div class="project__tech">HTML • CSS • JavaScript • MERN Stack</div>
+                    </div>
+                    <p class="project__description">
+                        Interactive platform with personality-based career recommendations and comprehensive college directory.
+                    </p>
+                    <div class="project__features">
+                        <span class="project__feature">Personality Quiz</span>
+                        <span class="project__feature">College Directory</span>
+                        <span class="project__feature">Responsive UI</span>
+                        <span class="project__feature">Local Storage</span>
+                    </div>
+                    <div class="project__results">
+                        <div class="project__result">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>70% decision clarity improvement</span>
+                        </div>
+                        <div class="project__result">
+                            <i class="fas fa-rocket"></i>
+                            <span>40% exploration speed increase</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project__card">
+                    <div class="project__header">
+                        <h3 class="project__title">Productivity Dashboard</h3>
+                        <div class="project__tech">GPT API • MERN Stack • Local Storage</div>
+                    </div>
+                    <p class="project__description">
+                        Full-stack productivity platform generating personalized daily routines based on user-defined goals.
+                    </p>
+                    <div class="project__features">
+                        <span class="project__feature">Routine Generation</span>
+                        <span class="project__feature">Progress Tracking</span>
+                        <span class="project__feature">Habit Streaks</span>
+                        <span class="project__feature">GPT Integration</span>
+                    </div>
+                    <div class="project__results">
+                        <div class="project__result">
+                            <i class="fas fa-tasks"></i>
+                            <span>40% task completion improvement</span>
+                        </div>
+                        <div class="project__result">
+                            <i class="fas fa-users"></i>
+                            <span>35% user engagement increase</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project__card">
+                    <div class="project__header">
+                        <h3 class="project__title">Brain Tumor Detection Model</h3>
+                        <div class="project__tech">TensorFlow • Python • CNN</div>
+                    </div>
+                    <p class="project__description">
+                        CNN-based deep learning model for medical imaging analysis with high accuracy tumor detection.
+                    </p>
+                    <div class="project__features">
+                        <span class="project__feature">Image Preprocessing</span>
+                        <span class="project__feature">CNN Architecture</span>
+                        <span class="project__feature">90% Accuracy</span>
+                        <span class="project__feature">Medical Imaging</span>
+                    </div>
+                    <div class="project__results">
+                        <div class="project__result">
+                            <i class="fas fa-brain"></i>
+                            <span>25% false positive reduction</span>
+                        </div>
+                        <div class="project__result">
+                            <i class="fas fa-chart-bar"></i>
+                            <span>35% training efficiency improvement</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience section" id="experience">
+        <div class="container">
+            <h2 class="section__title">Experience & Achievements</h2>
+            <div class="experience__container">
+                <div class="timeline">
+                    <div class="timeline__item">
+                        <div class="timeline__marker"></div>
+                        <div class="timeline__content">
+                            <div class="timeline__date">Feb 2025 – Mar 2025</div>
+                            <h3 class="timeline__title">Deep Learning Intern</h3>
+                            <h4 class="timeline__company">AI Project</h4>
+                            <ul class="timeline__responsibilities">
+                                <li>Developed CNN-based brain tumor detection model</li>
+                                <li>Preprocessed medical imaging data</li>
+                                <li>Evaluated model performance using precision, recall, and F1-score</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline__item">
+                        <div class="timeline__marker"></div>
+                        <div class="timeline__content">
+                            <div class="timeline__date">Jan 2024 – April 2024</div>
+                            <h3 class="timeline__title">Full Stack Developer Intern</h3>
+                            <h4 class="timeline__company">Software Developer</h4>
+                            <ul class="timeline__responsibilities">
+                                <li>Designed and deployed MERN-based e-commerce platform</li>
+                                <li>Developed responsive frontend using React.js</li>
+                                <li>Built scalable backend with Node.js and MongoDB</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="achievements">
+                    <h3 class="achievements__title">Key Achievements</h3>
+                    <div class="achievements__grid">
+                        <div class="achievement__item">
+                            <i class="fas fa-patent"></i>
+                            <span>Patent filed on Weather Forecasting System using APIs</span>
+                        </div>
+                        <div class="achievement__item">
+                            <i class="fas fa-file-alt"></i>
+                            <span>Published paper on IoT-based Air Quality Monitoring</span>
+                        </div>
+                        <div class="achievement__item">
+                            <i class="fas fa-code"></i>
+                            <span>Solved 200+ LeetCode problems in Java</span>
+                        </div>
+                        <div class="achievement__item">
+                            <i class="fas fa-certificate"></i>
+                            <span>Multiple certifications in Deep Learning, Blockchain, IoT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <h2 class="section__title">Get In Touch</h2>
+            <div class="contact__container">
+                <div class="contact__info">
+                    <h3 class="contact__title">Let's Work Together</h3>
+                    <p class="contact__description">
+                        I'm always interested in new opportunities and collaborations. 
+                        Whether you have a project in mind or just want to chat, feel free to reach out!
+                    </p>
+                    <div class="contact__details">
+                        <div class="contact__detail">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <span>surajyadavx.in@gmail.com</span>
+                            </div>
+                        </div>
+                        <div class="contact__detail">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <span>+91 7738137894</span>
+                            </div>
+                        </div>
+                        <div class="contact__detail">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <span>India</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact__form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <h3>Suraj Yadav</h3>
+                    <p>Full Stack MERN Developer</p>
+                </div>
+                <div class="footer__social">
+                    <a href="mailto:surajyadavx.in@gmail.com" class="footer__social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://github.com/Suraj244561" target="_blank" class="footer__social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" class="footer__social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2025 Suraj Yadav. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
